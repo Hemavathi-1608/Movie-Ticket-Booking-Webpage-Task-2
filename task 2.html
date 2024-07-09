@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticket Booking</title>
+    <link rel="stylesheet" href="task 2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Online Ticket Booking</h1>
+        <p>Book your tickets for the latest events quickly and easily!</p>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <img src="titanic.jpeg" alt="Event 1">
+            <div class="event-details">
+                <h3>TITANIC</h3>
+                <p>The movie is about the 1912 sinking of the RMS Titanic. It stars Kate Winslet and Leonardo DiCaprio. <br>The two play characters who are of different social classes. </br>They fall in love after meeting aboard the ship, but it was not good for a rich girl to fall in love with a poor boy in 1912.</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="avengers.jpeg" alt="Event 2">
+            <div class="event-details">
+                <h3>WANDA VISION</h3>
+                <p>It follows Wanda Maximoff and Vision as they live an idyllic suburban life in the town of Westview, New Jersey, until      <br>their reality starts moving through different decades of sitcom homages and television tropes.</br>Schaeffer served as head writer for the series, which was directed by Matt Shakman.</p>
+            </div>
+        </div>
+    </section>
+    <section id="booking">
+        <h2>Book Your Tickets</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="event">Event:</label>
+            <select id="event" name="event">
+                <option value="event1">Event 1</option>
+                <option value="event2">Event 2</option>
+            </select>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@ticketbooking.com</p>
+        <p>Phone: +123456789</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Online Ticket Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
